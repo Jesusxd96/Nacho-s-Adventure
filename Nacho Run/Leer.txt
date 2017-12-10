@@ -1,0 +1,16 @@
+El .apk se encuentra en la carpeta de builds,
+Ya fueron removidas todas las versiones anteriores antes de la actual, osease la final.
+Las instrucciones son las siguientes:
+- El objetivo es llegar lo mas lejos posible
+- El guacamole te da un aumento temporal de velocidad, dura 5 segundos
+- Los cactus te matan
+- Caer te mata
+- Los tacos son la moneda del juego, pero esto no pudo ser implementado porque no supimos como
+
+Todo lo demas como scripts y programacion se encuentra en la carpeta de Assets
+
+Nos retrasamos un poco porque aparecieron unos bugs de ultimo momento en el movimiento de nuestro personaje.
+
+Atte:
+	Yithzack Uriel Carmona Rodriguez
+	Jesus Eduardo Lara Ortiz
