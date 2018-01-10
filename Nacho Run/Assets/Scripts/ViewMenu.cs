@@ -5,15 +5,13 @@ using UnityEngine.UI;
 
 public class ViewMenu : MonoBehaviour {
 	public static ViewMenu sharedInstance;
-	//public int totalCollectedCoins;
-	//public Text coinsLabel;
+	public Text coinsLabel;
 
 	void Awake(){
 		sharedInstance = this;
 	}
-
-	public void UpdateCoinsLabel(){//Actualiza el numero de monedas en el menu de inicio
-		
+	void Update(){//Utilizado para actualizar el numero de monedas en el menu de inicio
+		coinsLabel.text= PlayerPrefs.GetInt("Coins").ToString();
 	}
-		
+
 }

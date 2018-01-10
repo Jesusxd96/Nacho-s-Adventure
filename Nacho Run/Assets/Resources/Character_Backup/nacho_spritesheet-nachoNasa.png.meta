@@ -1,0 +1,334 @@
+fileFormatVersion: 2
+guid: 573823d6bd3021d428c2342b3eb66c59
+timeCreated: 1514921299
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: nacho_sombrero
+    21300002: nacho_head-front
+    21300004: nacho_sombrero-down
+    21300006: nacho_head-side
+    21300008: nacho_left-eyebrow
+    21300010: nacho_right-eyebrow
+    21300012: nacho_left-eye
+    21300014: nacho_right-eye
+    21300016: nacho_mustache-front
+    21300018: nacho_mustache-side
+    21300020: nacho_poncho-front
+    21300022: nacho_poncho-side
+    21300024: nacho_test-arm
+    21300026: nacho_poncho-sidearm
+    21300028: nacho_leg-upper
+    21300030: nacho_backleg-upper
+    21300032: nacho_leg-down
+    21300034: nacho_backleg-down
+    21300036: nacho_foot
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nacho_sombrero
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 677
+        width: 164
+        height: 96
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.062150955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_head-front
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 655
+        width: 157
+        height: 144
+      alignment: 9
+      pivot: {x: 0.51548076, y: 0.114953786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_sombrero-down
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 656
+        width: 127
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_head-side
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 561
+        width: 141
+        height: 133
+      alignment: 9
+      pivot: {x: 0.49700084, y: 0.11467221}
+      border: {x: 24, y: 16, z: 21, w: 20}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_left-eyebrow
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 646
+        width: 27
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_right-eyebrow
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 646
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_left-eye
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 625
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_right-eye
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 625
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_mustache-front
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 589
+        width: 84
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_mustache-side
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 530
+        width: 72
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5745766, y: 0.46271133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_poncho-front
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 298
+        width: 168
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_poncho-side
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 288
+        width: 124
+        height: 247
+      alignment: 9
+      pivot: {x: 0.5, y: 0.97679776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_test-arm
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 368
+        width: 61
+        height: 137
+      alignment: 9
+      pivot: {x: 0.62714696, y: 0.93548405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_poncho-sidearm
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 312
+        width: 78
+        height: 215
+      alignment: 9
+      pivot: {x: 0.45303658, y: 0.9446806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_leg-upper
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 198
+        width: 56
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5024436, y: 0.8996392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_backleg-upper
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 198
+        width: 56
+        height: 93
+      alignment: 9
+      pivot: {x: 0.50051594, y: 0.92034256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_leg-down
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 99
+        width: 57
+        height: 97
+      alignment: 9
+      pivot: {x: 0.49999994, y: 0.87447834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_backleg-down
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 99
+        width: 55
+        height: 97
+      alignment: 9
+      pivot: {x: 0.50455695, y: 0.87382555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nacho_foot
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 21
+        width: 79
+        height: 38
+      alignment: 9
+      pivot: {x: 0.27879125, y: 1.0012133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

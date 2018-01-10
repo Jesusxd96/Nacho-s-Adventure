@@ -38,7 +38,7 @@ public class BackgroundGenerator : MonoBehaviour {
 		block.transform.SetParent (this.transform, false);//Hace que el padre sea el mismo
 
 		//Posicion del bloque
-		Vector3 blockPosition = Vector3.zero;
+		Vector3 blockPosition = Vector3.one;
 
 		if (currentBackgroundBlocks.Count == 0) {
 			//Significa que es el primer bloque en colocarse

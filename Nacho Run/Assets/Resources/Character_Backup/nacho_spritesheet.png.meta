@@ -1,0 +1,366 @@
+fileFormatVersion: 2
+guid: 8830fd864ab078d449eb5a80f76be5f8
+timeCreated: 1511221278
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: nacho_sombrero
+    21300002: nacho_head-front
+    21300004: nacho_sombrero-down
+    21300006: nacho_head-side
+    21300008: nacho_left-eyebrow
+    21300010: nacho_right-eyebrow
+    21300012: nacho_left-eye
+    21300014: nacho_right-eye
+    21300016: nacho_mustache-front
+    21300018: nacho_mustache-side
+    21300020: nacho_poncho-front
+    21300022: nacho_poncho-side
+    21300024: nacho_test-arm
+    21300026: nacho_poncho-sidearm
+    21300028: nacho_leg-upper
+    21300030: nacho_backleg-upper
+    21300032: nacho_leg-down
+    21300034: nacho_backleg-down
+    21300036: nacho_foot
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nacho_sombrero
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 677
+        width: 164
+        height: 96
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.062150955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_head-front
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 687
+        width: 94
+        height: 96
+      alignment: 9
+      pivot: {x: 0.51278687, y: 0.0033543904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_sombrero-down
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 656
+        width: 127
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_head-side
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 578
+        width: 94
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0065616006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_left-eyebrow
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 646
+        width: 27
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_right-eyebrow
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 646
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_left-eye
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 625
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_right-eye
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 625
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_mustache-front
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 589
+        width: 84
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_mustache-side
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 530
+        width: 72
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5745766, y: 0.46271133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_poncho-front
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 298
+        width: 168
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_poncho-side
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 298
+        width: 124
+        height: 237
+      alignment: 9
+      pivot: {x: 0.5, y: 0.92543304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_test-arm
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 368
+        width: 61
+        height: 137
+      alignment: 9
+      pivot: {x: 0.62714696, y: 0.93548405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_poncho-sidearm
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 342
+        width: 73
+        height: 185
+      alignment: 9
+      pivot: {x: 0.4801452, y: 0.9309115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_leg-upper
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 198
+        width: 34
+        height: 93
+      alignment: 9
+      pivot: {x: 0.51754737, y: 0.9554785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_backleg-upper
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 198
+        width: 34
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9554785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_leg-down
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 103
+        width: 34
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.96830916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_backleg-down
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 103
+        width: 34
+        height: 93
+      alignment: 9
+      pivot: {x: 0.51754737, y: 0.97472423}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nacho_foot
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 21
+        width: 79
+        height: 38
+      alignment: 9
+      pivot: {x: 0.27343798, y: 0.8454069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

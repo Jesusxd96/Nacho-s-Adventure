@@ -20,7 +20,7 @@ public class Guacamole : MonoBehaviour {
 	public void CollectGuacamole(){
 		isCollected = true;
 		HideGuacamole ();
-		//Notificar al Game manager que la moneda ha sido recogida
+		//Notificar al Game manager que el guacamole ha sido recogido
 		GameManager.sharedInstance.CollectGuacamole();
 	}
 

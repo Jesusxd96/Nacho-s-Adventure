@@ -2,34 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Collections.Specialized;
-
+using System;
 public class PlayerController : MonoBehaviour {
 
+	//public string spriteSheetName = "nacho_spritesheet";
 	public static PlayerController sharedInstance;
 	public float Ray = 1.74f;
 	public float jumpForce = 15.0f;
 	public float runningSpeed = 8.0f;
-	private Rigidbody2D rigidBody;
+	public Rigidbody2D rigidBody; //Se hizo publica por prueba
 	public LayerMask groundLayerMask;
 	public Animator animator;
-	private string highScoreKey = "highscore";
-	private string totalCoinsKey = "totalCoins";
-	//public int totalCoins;
+	public string highScoreKey = "highscore";
 
-	private Vector3 startPosition;//Posicion de arranque en 3 dimensiones
+	public Vector3 startPosition;//Posicion de arranque en 3 dimensiones
+	//Igual se hizo publica para poder accesar a ella desde otro script
 
 	void Awake(){
 		animator.SetBool("isAlive",true);
+		ChangeSkin (PlayerPrefs.GetString("CurrentSkin"));
 		sharedInstance = this;
 		rigidBody = GetComponent<Rigidbody2D> ();
 		startPosition = this.transform.position;
 	}
 
-
 	public void StartGame () {
 		AudioSource audio = GetComponent<AudioSource>(); //Igual no se si este de mas
 		rigidBody.velocity = new Vector2 (0,0);
 		this.transform.position = startPosition;
+		animator.SetBool("isIdle",false);
 		animator.SetBool("isAlive",true);
 		audio.Play ();
 	}
@@ -80,6 +81,7 @@ public class PlayerController : MonoBehaviour {
 		if (PlayerPrefs.GetFloat (highScoreKey, 0) < this.GetDistance ()) {
 			PlayerPrefs.SetFloat(highScoreKey,this.GetDistance());
 		}
+		PlayerPrefs.Save ();
 	}
 
 	public float GetDistance(){
@@ -88,14 +90,18 @@ public class PlayerController : MonoBehaviour {
 		
 		return distanceTraveled;
 	}
+	public void ChangeSkin(string skin){
+		var subSprites = Resources.LoadAll<Sprite> ("Characters/" + skin);
 
-	/*public void GetCoins(){
-		PlayerPrefs.GetInt (totalCoinsKey, totalCoins);
-		PlayerPrefs.SetInt (totalCoinsKey, (totalCoins + GameManager.sharedInstance.totalCollectedCoins));
-		Debug.Log ("Las monedas de Nacho son: " + totalCoins);
+		foreach (var renderer in GetComponentsInChildren<SpriteRenderer>()) {
+			string spriteName = renderer.sprite.name;
+			var newSprite = Array.Find (subSprites, item => item.name == spriteName);
+
+			if (newSprite)
+				renderer.sprite = newSprite;
+		}
+		GameManager.sharedInstance.currentSkin = skin;
+		GameManager.sharedInstance.Save ();
 	}
 
-	public void SpendCoins(){
-		//Para gastar dinero de las skins
-	}*/
 }

@@ -14,10 +14,6 @@ public class ViewInGame : MonoBehaviour {
 		sharedInstance = this;
 	}
 
-	void Start(){
-		
-	}
-
 	// Update is called once per frame
 	void Update () {
 

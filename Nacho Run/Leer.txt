@@ -1,3 +1,8 @@
+--------------------------------------------------
+
+El .apk es la version titulada version 2.1
+
+---------------------------------------------------
 El .apk se encuentra en la carpeta de builds,
 Ya fueron removidas todas las versiones anteriores antes de la actual, osease la final.
 Las instrucciones son las siguientes:
